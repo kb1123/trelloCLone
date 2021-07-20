@@ -1,0 +1,12 @@
+import React, { useState } from 'react';
+
+function Mysidebar() {
+
+	return(
+		<>
+		<div style = {{position: "fixed", backgroundColor: "blue", width: "100vw", height: "50px"}}></div>
+		</>
+	);
+}
+
+export default Mysidebar;
